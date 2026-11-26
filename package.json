@@ -1,0 +1,16 @@
+{
+  "name": "typescript-univo",
+  "version": "1.0.0",
+  "description": "Evidencias de ejercicios de TypeScript - UNIVO",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "check": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
